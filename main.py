@@ -5,19 +5,19 @@ print("As well as the modulus operator and floor division!\n")
 #Setting Operator Functions
 def op_function(num1, num2, op):
     if op == "+":
-        print("The Answer is" + num1 + num2)
+        print(num1 + num2)
     elif op == "-":
-        print("The Answer is" + num1 - num2)
+        print(num1 - num2)
     elif op == "*":
-        print("The Answer is" + num1 * num2)
+        print("num1 * num2)
     elif op == "/":
-        print("The Answer is" + num1 / num2)
+        print( num1 / num2)
     elif op == "//":
-        print("The Answer is" + num1 // num2)
+        print(num1 // num2)
     elif op == "**":
-        print("The Answer is" + num1 ** num2)
+        print(num1 ** num2)
     elif op == "%":
-        print("The Answer is" + num1 % num2)
+        print(num1 % num2)
     else:
         print("INVALID OPERATOR! :/ TRY AGAIN!")
 
