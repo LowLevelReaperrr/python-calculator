@@ -22,9 +22,9 @@ def op_function(num1, num2, op):
         print("INVALID OPERATOR! :/ TRY AGAIN!")
 
 while True:
-    num1 = input("Enter a number: ")
+    num1 = float(input("Enter a number: "))
     op = input("Enter an operator: ")
-    num2 = input("Enter another number: ")
+    num2 = float(input("Enter another number: "))
     op_function(num1, num2, op)
 
     option = input("Keep calculating? (Yes/No): ")
